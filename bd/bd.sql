@@ -1,0 +1,9 @@
+CREATE SCHEMA IF NOT EXISTS `carros` DEFAULT CHARACTER SET utf8 ;
+USE `carros`;
+
+CREATE TABLE `vehiculo` (
+`marca` VARCHAR( 300 ) NOT NULL ,
+`modelo` VARCHAR( 50 ) NOT NULL ,
+`color` VARCHAR( 50 ) NOT NULL ,
+`Numero_de_Serie` INT NOT NULL
+) ENGINE = INNODB;
